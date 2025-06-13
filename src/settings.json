@@ -1,14 +1,14 @@
 {
-  "name": "Falcon-Api UI",
-  "version": "v1.0.0",
+  "name": "Neopay-Api UI",
+  "version": "v1.0.01",
   "description": "Simple and easy to use API.",
   "bannerImage": "/src/banner.jpg",
   "header": {
     "status": "Online!"
   },
   "apiSettings": {
-    "creator": "FlowFalcon", 
-    "apikey": ["falcon-api"]
+    "creator": "!Neopay", 
+    "apikey": ["neopay-api"]
   },
   "categories": [
     {
