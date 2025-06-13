@@ -1,13 +1,13 @@
 {
   "name": "Neopay-Api UI",
-  "version": "v1.0.01",
+  "version": "v1.0.1",
   "description": "Simple and easy to use API.",
-  "bannerImage": "/src/banner.jpg",
+  "bannerImage": "/banner.jpg",
   "header": {
-    "status": "Online!"
+    "status": "Online"
   },
   "apiSettings": {
-    "creator": "!Neopay", 
+    "creator": "Neopay",
     "apikey": ["neopay-api"]
   },
   "categories": [
@@ -16,30 +16,30 @@
       "items": [
         {
           "name": "LuminAI",
-          "desc": "Talk with luminai",
+          "desc": "Talk with LuminAI",
           "path": "/ai/luminai?text=",
-          "status": "ready",
+          "status": "Ready",
           "params": {
-            "text": "Text for luminai to respond to"
+            "text": "Text for LuminAI to respond to"
           }
         },
         {
-          "name": "GeminiAi", 
-          "desc": "Talk with Gemini", 
-          "path": "/ai/gemini?text=", 
-          "status": "ready", 
+          "name": "GeminiAi",
+          "desc": "Talk with Gemini AI",
+          "path": "/ai/gemini?text=",
+          "status": "Ready",
           "params": {
-            "text": "Text for gemini to respond"
+            "text": "Text for Gemini to respond"
           }
-        }, 
-       {
+        },
+        {
           "name": "HydroMind",
-          "desc": "See the list of supported AI models here: https://mind.hydrooo.web.id",
+          "desc": "Chat AI with custom models. List: https://mind.hydrooo.web.id",
           "path": "/ai/hydromind?text=&model=",
-          "status": "ready",
+          "status": "Ready",
           "params": {
             "text": "Teks atau perintah untuk chat AI",
-            "model":"1See the list of supported AI models here: https://mind.hydrooo.web.id"
+            "model": "gpt-3.5"
           }
         }
       ]
@@ -51,7 +51,7 @@
           "name": "Blue Archive",
           "desc": "Blue Archive Random Images",
           "path": "/random/ba",
-          "status": "ready"
+          "status": "Ready"
         }
       ]
     },
@@ -62,12 +62,12 @@
           "name": "YouTube",
           "desc": "Video search",
           "path": "/search/youtube?q=",
-          "status": "ready",
+          "status": "Ready",
           "params": {
             "q": "Search query"
           }
         }
       ]
-    }               
+    }
   ]
 }
