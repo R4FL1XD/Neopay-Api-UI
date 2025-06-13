@@ -3,7 +3,7 @@ const { SuzakuTeam } = require("@suzakuteam/scraper-node");
 module.exports = function(app) {
     async function fetchGeminiContent(content) {
         try {
-            const response = await SuzakuTeam.ai.gemini({content});
+            const response = await SuzakuTeam.ai.phindChat(content) 
             return response;
         } catch (error) {
             console.error("Error fetching content from Gemini:", error);
