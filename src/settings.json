@@ -23,6 +23,15 @@
             "text": "Text for luminai to respond to"
           }
         },
+        {
+          "name": "GeminiAi", 
+          "desc": "Talk with Gemini", 
+          "path": "/ai/gemini?text=", 
+          "status": "ready", 
+          "params": {
+            "text": "Text for gemini to respond"
+          }
+        }
        {
           "name": "HydroMind",
           "desc": "See the list of supported AI models here: https://mind.hydrooo.web.id",
